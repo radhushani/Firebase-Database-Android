@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "447121417440",
+    "project_id": "mobile-app-dev-project-345509",
+    "storage_bucket": "mobile-app-dev-project-345509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447121417440:android:8601e3a92eece4b54d1c85",
+        "android_client_info": {
+          "package_name": "com.myproject.storedataapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447121417440-8j72m91mr8unfhos65fnio6lcfv46mdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1bcsd_SLXdPfNXT-yjrS8ZyemrKKVvIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447121417440-8j72m91mr8unfhos65fnio6lcfv46mdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
