@@ -38,6 +38,16 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.button.setOnClickListener {
+            //get values
+            val firstName = binding.editTextFirstname.text.toString()
+            val lastName = binding.editTextLastname.text.toString()
+            val age = binding.editTextAge.text.toString()
+
+            //creating a map
+            var user = mapOf("FirstName" to firstName, "LastName" to lastName, "Age" to age)
+
+            //store the map in cloud fireStore
+            db.collection("user").document("user1").set(user)
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
     }
